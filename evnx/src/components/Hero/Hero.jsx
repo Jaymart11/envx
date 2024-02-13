@@ -103,6 +103,22 @@ export default function Hero() {
                 className={index === currentIndex ? "active" : ""}
               >
                 <div
+                  style={{
+                    height: "100%",
+                    width: `50%`,
+                    display: "flex",
+                    alignItems: "center",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    color: "white",
+                  }}
+                >
+                  <h1>{image.title}</h1>
+                  <p style={{ fontSize: "50px", width: "800px" }}>
+                    {image.description}
+                  </p>
+                </div>
+                <div
                   className="image-color"
                   style={{
                     backgroundColor: `${image.color?.[colorId]?.name}`,

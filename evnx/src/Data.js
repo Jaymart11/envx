@@ -1,7 +1,8 @@
 export const hero = [
   {
     title: "Full Face Helmet",
-    description: "Full Face Yellow Full Face Yellow Full Face Black",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     color: [
       {
         name: "yellow",
@@ -18,7 +19,8 @@ export const hero = [
   },
   {
     title: "Modular Helmet",
-    description: "Modular Helmet Modular Helmet Modular Helmet",
+    description:
+      "Neque volutpat ac tincidunt vitae. Dictum fusce ut placerat orci nulla.",
     color: [
       {
         name: "black",
@@ -35,7 +37,8 @@ export const hero = [
   },
   {
     title: "Half Face Helmet ",
-    description: "Half Face Helmet Half Face Helmet Half Face Helmet",
+    description:
+      "Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Lobortis elementum nibh tellus molestie nunc non. In hac habitasse platea dictumst quisque sagittis purus",
     color: [
       {
         name: "white",
@@ -53,7 +56,7 @@ export const hero = [
   {
     title: "Off Road Helmet",
     description:
-      "Off Road HelmetOff Road HelmetOff Road HelmetOff Road HelmetOff Road Helmet",
+      "Sit amet cursus sit amet dictum. Eu sem integer vitae justo eget. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt.",
     color: [
       {
         name: "purple",

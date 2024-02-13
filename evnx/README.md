@@ -1,8 +1,23 @@
-# React + Vite
+This Website is built using React and CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Finished Task:
 
-Currently, two official plugins are available:
+- can customize some content on the website
+- mobile responsive but only in 768px
+- with minicart and hamburger but the minicart is only a modal no functionality
+- replaceble hero text using hero array inside Data.js file
+- new product is carousel type and can add new products using hero array inside Data.js file and
+- header is sticky
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---HERO----
+can change the text, images and color button using Data.js
+can change color of the product by hovering and clicking the selected color
+you can also drag but only in 768px or mobile
+
+-- New product ----
+can add multiple products using Data.js
+carousel type interaction using button
+
+--- blog---
+
+can add blog using blogData array in Data.js
