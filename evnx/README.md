@@ -12,12 +12,11 @@ Finished Task:
 ---HERO----
 can change the text, images and color button using Data.js
 can change color of the product by hovering and clicking the selected color
-you can also drag but only in 768px or mobile
+carousel change automatically every 10 seconds
 
 -- New product ----
 can add multiple products using Data.js
 carousel type interaction using button
 
 --- blog---
-
 can add blog using blogData array in Data.js

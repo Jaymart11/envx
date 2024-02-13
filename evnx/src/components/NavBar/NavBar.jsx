@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./NavBar.css"; // Import your CSS file
 
 // eslint-disable-next-line react/prop-types
-const Navbar = ({ isMobile }) => {
+const NavBar = ({ isMobile }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
 
@@ -86,4 +86,4 @@ const Navbar = ({ isMobile }) => {
   );
 };
 
-export default Navbar;
+export default NavBar;
