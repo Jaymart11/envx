@@ -1,0 +1,79 @@
+.hero {
+  height: calc(100vh - 8vh);
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-images div {
+  display: none;
+}
+
+.carousel-images div.active {
+  display: flex;
+  width: 100%;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 79, 55);
+  font-size: 60px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.prev {
+  left: 50px;
+}
+
+.next {
+  right: 50px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+}
+
+.buttons button {
+  margin: 0;
+  border: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.color-btn {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
